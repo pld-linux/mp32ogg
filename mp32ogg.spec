@@ -3,15 +3,14 @@ Summary:	mp3 to ogg vorbis converter
 Summary(pl):	Konwerter mp3 do ogg vorbis
 Name:		mp32ogg
 Version:	0.11
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Applications/Multimedia
 Source0:	ftp://ftp.faceprint.com/pub/software/scripts/%{name}
 # Source0-md5:	7da7d3b125d2d0a6c12bbb0e9cdb93ff
 URL:		http://faceprint.com/code/
-BuildRequires:	perl >= 5.6
-BuildRequires:	perl-modules
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	perl-devel >= 1:5.6
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	mpg123
 Requires:	vorbis-tools
 BuildArch:	noarch
