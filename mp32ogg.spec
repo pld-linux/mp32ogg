@@ -8,11 +8,11 @@ License:	Artistic
 Group:		Applications/Multimedia
 Source0:	ftp://ftp.faceprint.com/pub/software/scripts/%{name}
 URL:		http://faceprint.com/code/
-Requires:	vorbis-tools
-Requires:	mpg123
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-modules
 BuildRequires:	rpm-perlprov >= 3.0.3-16
+Requires:	mpg123
+Requires:	vorbis-tools
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,6 +23,14 @@ well as deleting the originals.
 
 THIS DEGRADES THE QUALITY, because it goes from one lossy format to
 another.
+
+%description -l pl
+Jest to skrypt Perla konwertuj±cy pliki MP3 na Ogg Vorbis, z
+zachowaniem informacji ID3, bitrate i opcjonalnie zmieniaj±cy nazwy
+plików wyj¶ciowych oraz usuwaj±cy pliki oryginalne.
+
+TAKA KONWERSJA OBNI¯A JAKO¦Æ, poniewa¿ jest to przej¶cie z jednego
+stratnego formatu na inny.
 
 %install
 rm -rf $RPM_BUILD_ROOT
