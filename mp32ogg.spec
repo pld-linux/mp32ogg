@@ -7,6 +7,7 @@ Release:	1
 License:	Artistic
 Group:		Applications/Multimedia
 Source0:	ftp://ftp.faceprint.com/pub/software/scripts/%{name}
+# Source0-md5:	7da7d3b125d2d0a6c12bbb0e9cdb93ff
 URL:		http://faceprint.com/code/
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-modules
