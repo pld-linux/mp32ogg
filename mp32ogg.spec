@@ -28,7 +28,7 @@ another.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install %{SOURCE0} $RPM_BUILD_ROOT%{_bindir}
+sed "s/$quality = 8;/$quality = 7;/" %{SOURCE0} > $RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
