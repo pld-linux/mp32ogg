@@ -32,8 +32,6 @@ plików wyj¶ciowych oraz usuwaj±cy pliki oryginalne.
 TAKA KONWERSJA OBNI¯A JAKO¦Æ, poniewa¿ jest to przej¶cie z jednego
 stratnego formatu na inny.
 
-%prep
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
