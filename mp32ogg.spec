@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	MP3 to Ogg Vorbis converter
-Summary(pl):	Konwerter MP3 do Ogg Vorbis
+Summary(pl.UTF-8):   Konwerter MP3 do Ogg Vorbis
 Name:		mp32ogg
 Version:	0.11
 Release:	2
@@ -24,12 +24,12 @@ well as deleting the originals.
 THIS DEGRADES THE QUALITY, because it goes from one lossy format to
 another.
 
-%description -l pl
-Jest to skrypt Perla konwertuj±cy pliki MP3 na Ogg Vorbis, z
-zachowaniem informacji ID3, bitrate i opcjonalnie zmieniaj±cy nazwy
-plików wyj¶ciowych oraz usuwaj±cy pliki oryginalne.
+%description -l pl.UTF-8
+Jest to skrypt Perla konwertujÄ…cy pliki MP3 na Ogg Vorbis, z
+zachowaniem informacji ID3, bitrate i opcjonalnie zmieniajÄ…cy nazwy
+plikÃ³w wyjÅ›ciowych oraz usuwajÄ…cy pliki oryginalne.
 
-TAKA KONWERSJA OBNI¯A JAKO¦Æ, poniewa¿ jest to przej¶cie z jednego
+TAKA KONWERSJA OBNIÅ»A JAKOÅšÄ†, poniewaÅ¼ jest to przejÅ›cie z jednego
 stratnego formatu na inny.
 
 %prep
