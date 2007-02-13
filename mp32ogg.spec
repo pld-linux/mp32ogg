@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	MP3 to Ogg Vorbis converter
-Summary(pl.UTF-8):   Konwerter MP3 do Ogg Vorbis
+Summary(pl.UTF-8):	Konwerter MP3 do Ogg Vorbis
 Name:		mp32ogg
 Version:	0.11
 Release:	2
